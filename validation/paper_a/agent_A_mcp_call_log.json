@@ -1,0 +1,632 @@
+[
+  {
+    "timestamp": "2026-03-10T19:37:05.889343",
+    "model": "RF-BIN",
+    "composition": "U11Si",
+    "n_templates": 8742,
+    "best_eV": 0.02986570097576998
+  },
+  {
+    "timestamp": "2026-03-10T19:37:06.406425",
+    "model": "RF-BIN",
+    "composition": "U10Si",
+    "n_templates": 8742,
+    "best_eV": 0.027956727000997675
+  },
+  {
+    "timestamp": "2026-03-10T19:37:06.900990",
+    "model": "RF-BIN",
+    "composition": "U9Si",
+    "n_templates": 8742,
+    "best_eV": 0.030237342813998237
+  },
+  {
+    "timestamp": "2026-03-10T19:37:07.416540",
+    "model": "RF-BIN",
+    "composition": "U8Si",
+    "n_templates": 8742,
+    "best_eV": 0.028081977746025586
+  },
+  {
+    "timestamp": "2026-03-10T19:37:07.928761",
+    "model": "RF-BIN",
+    "composition": "U7Si",
+    "n_templates": 8742,
+    "best_eV": 0.0275245638164301
+  },
+  {
+    "timestamp": "2026-03-10T19:37:08.439989",
+    "model": "RF-BIN",
+    "composition": "U6Si",
+    "n_templates": 8742,
+    "best_eV": -0.014478113949046889
+  },
+  {
+    "timestamp": "2026-03-10T19:37:08.971977",
+    "model": "RF-BIN",
+    "composition": "U5Si",
+    "n_templates": 8742,
+    "best_eV": -0.057066214875852124
+  },
+  {
+    "timestamp": "2026-03-10T19:37:09.477371",
+    "model": "RF-BIN",
+    "composition": "U9Si2",
+    "n_templates": 8742,
+    "best_eV": -0.08171407330725887
+  },
+  {
+    "timestamp": "2026-03-10T19:37:09.987956",
+    "model": "RF-BIN",
+    "composition": "U4Si",
+    "n_templates": 8742,
+    "best_eV": -0.13582877843102248
+  },
+  {
+    "timestamp": "2026-03-10T19:37:10.540530",
+    "model": "RF-BIN",
+    "composition": "U7Si2",
+    "n_templates": 8742,
+    "best_eV": -0.17101436073143744
+  },
+  {
+    "timestamp": "2026-03-10T19:37:11.347753",
+    "model": "RF-BIN",
+    "composition": "U3Si",
+    "n_templates": 8742,
+    "best_eV": -0.18553421847806156
+  },
+  {
+    "timestamp": "2026-03-10T19:37:11.872937",
+    "model": "RF-BIN",
+    "composition": "U8Si3",
+    "n_templates": 8742,
+    "best_eV": -0.21421285838448875
+  },
+  {
+    "timestamp": "2026-03-10T19:37:12.441861",
+    "model": "RF-BIN",
+    "composition": "U5Si2",
+    "n_templates": 8742,
+    "best_eV": -0.2107964163381954
+  },
+  {
+    "timestamp": "2026-03-10T19:37:12.980269",
+    "model": "RF-BIN",
+    "composition": "U7Si3",
+    "n_templates": 8742,
+    "best_eV": -0.24101308229189086
+  },
+  {
+    "timestamp": "2026-03-10T19:37:13.482994",
+    "model": "RF-BIN",
+    "composition": "U2Si",
+    "n_templates": 8742,
+    "best_eV": -0.24169780167927077
+  },
+  {
+    "timestamp": "2026-03-10T19:37:13.983526",
+    "model": "RF-BIN",
+    "composition": "U7Si4",
+    "n_templates": 8742,
+    "best_eV": -0.22546156395794814
+  },
+  {
+    "timestamp": "2026-03-10T19:37:14.516112",
+    "model": "RF-BIN",
+    "composition": "U5Si3",
+    "n_templates": 8742,
+    "best_eV": -0.22221613704321536
+  },
+  {
+    "timestamp": "2026-03-10T19:37:15.185067",
+    "model": "RF-BIN",
+    "composition": "U3Si2",
+    "n_templates": 8742,
+    "best_eV": -0.19980341467731133
+  },
+  {
+    "timestamp": "2026-03-10T19:37:15.699937",
+    "model": "RF-BIN",
+    "composition": "U7Si5",
+    "n_templates": 8742,
+    "best_eV": -0.19841790791744007
+  },
+  {
+    "timestamp": "2026-03-10T19:37:16.197725",
+    "model": "RF-BIN",
+    "composition": "U4Si3",
+    "n_templates": 8742,
+    "best_eV": -0.24939040818500668
+  },
+  {
+    "timestamp": "2026-03-10T19:37:16.724214",
+    "model": "RF-BIN",
+    "composition": "U5Si4",
+    "n_templates": 8742,
+    "best_eV": -0.26871599128792856
+  },
+  {
+    "timestamp": "2026-03-10T19:37:17.239858",
+    "model": "RF-BIN",
+    "composition": "U6Si5",
+    "n_templates": 8742,
+    "best_eV": -0.2643007503398103
+  },
+  {
+    "timestamp": "2026-03-10T19:37:17.889481",
+    "model": "RF-BIN",
+    "composition": "USi",
+    "n_templates": 8742,
+    "best_eV": -0.31756162002774874
+  },
+  {
+    "timestamp": "2026-03-10T19:37:18.390403",
+    "model": "RF-BIN",
+    "composition": "U5Si6",
+    "n_templates": 8742,
+    "best_eV": -0.3536398737863052
+  },
+  {
+    "timestamp": "2026-03-10T19:37:18.897760",
+    "model": "RF-BIN",
+    "composition": "U4Si5",
+    "n_templates": 8742,
+    "best_eV": -0.36331272220005145
+  },
+  {
+    "timestamp": "2026-03-10T19:37:19.427775",
+    "model": "RF-BIN",
+    "composition": "U3Si4",
+    "n_templates": 8742,
+    "best_eV": -0.3629456290648431
+  },
+  {
+    "timestamp": "2026-03-10T19:37:19.941592",
+    "model": "RF-BIN",
+    "composition": "U5Si7",
+    "n_templates": 8742,
+    "best_eV": -0.3441742304556404
+  },
+  {
+    "timestamp": "2026-03-10T19:37:20.477823",
+    "model": "RF-BIN",
+    "composition": "U2Si3",
+    "n_templates": 8742,
+    "best_eV": -0.35357934586767203
+  },
+  {
+    "timestamp": "2026-03-10T19:37:21.011304",
+    "model": "RF-BIN",
+    "composition": "U3Si5",
+    "n_templates": 8742,
+    "best_eV": -0.3602296416714808
+  },
+  {
+    "timestamp": "2026-03-10T19:37:21.523983",
+    "model": "RF-BIN",
+    "composition": "U4Si7",
+    "n_templates": 8742,
+    "best_eV": -0.3585164488160287
+  },
+  {
+    "timestamp": "2026-03-10T19:37:22.336804",
+    "model": "RF-BIN",
+    "composition": "USi2",
+    "n_templates": 8742,
+    "best_eV": -0.34724427282806086
+  },
+  {
+    "timestamp": "2026-03-10T19:37:22.854527",
+    "model": "RF-BIN",
+    "composition": "U3Si7",
+    "n_templates": 8742,
+    "best_eV": -0.3212993397089617
+  },
+  {
+    "timestamp": "2026-03-10T19:37:23.406177",
+    "model": "RF-BIN",
+    "composition": "U2Si5",
+    "n_templates": 8742,
+    "best_eV": -0.2798646104061776
+  },
+  {
+    "timestamp": "2026-03-10T19:37:23.921065",
+    "model": "RF-BIN",
+    "composition": "U3Si8",
+    "n_templates": 8742,
+    "best_eV": -0.27306275323279827
+  },
+  {
+    "timestamp": "2026-03-10T19:37:24.600879",
+    "model": "RF-BIN",
+    "composition": "USi3",
+    "n_templates": 8742,
+    "best_eV": -0.21892647289912792
+  },
+  {
+    "timestamp": "2026-03-10T19:37:25.097070",
+    "model": "RF-BIN",
+    "composition": "U2Si7",
+    "n_templates": 8742,
+    "best_eV": -0.23473813606386434
+  },
+  {
+    "timestamp": "2026-03-10T19:37:25.628397",
+    "model": "RF-BIN",
+    "composition": "USi4",
+    "n_templates": 8742,
+    "best_eV": -0.26543308070077093
+  },
+  {
+    "timestamp": "2026-03-10T19:37:26.163764",
+    "model": "RF-BIN",
+    "composition": "U2Si9",
+    "n_templates": 8742,
+    "best_eV": -0.3385014498893462
+  },
+  {
+    "timestamp": "2026-03-10T19:37:26.725941",
+    "model": "RF-BIN",
+    "composition": "USi5",
+    "n_templates": 8742,
+    "best_eV": -0.31413767761002276
+  },
+  {
+    "timestamp": "2026-03-10T19:37:27.255944",
+    "model": "RF-BIN",
+    "composition": "USi6",
+    "n_templates": 8742,
+    "best_eV": -0.26437292996296696
+  },
+  {
+    "timestamp": "2026-03-10T19:37:27.821873",
+    "model": "RF-BIN",
+    "composition": "USi7",
+    "n_templates": 8742,
+    "best_eV": -0.24219797781818891
+  },
+  {
+    "timestamp": "2026-03-10T19:37:28.354895",
+    "model": "RF-BIN",
+    "composition": "USi8",
+    "n_templates": 8742,
+    "best_eV": -0.22935540022571704
+  },
+  {
+    "timestamp": "2026-03-10T19:37:28.862652",
+    "model": "RF-BIN",
+    "composition": "USi9",
+    "n_templates": 8742,
+    "best_eV": -0.19913072129479104
+  },
+  {
+    "timestamp": "2026-03-10T19:37:29.395215",
+    "model": "RF-BIN",
+    "composition": "USi10",
+    "n_templates": 8742,
+    "best_eV": -0.17852736235284747
+  },
+  {
+    "timestamp": "2026-03-10T19:37:29.906166",
+    "model": "RF-BIN",
+    "composition": "USi11",
+    "n_templates": 8742,
+    "best_eV": -0.15605994789890912
+  },
+  {
+    "timestamp": "2026-03-10T19:37:31.015639",
+    "model": "RF-ALL",
+    "composition": "U11Si",
+    "n_templates": 31476,
+    "best_eV": 0.029508644142620184
+  },
+  {
+    "timestamp": "2026-03-10T19:37:32.077234",
+    "model": "RF-ALL",
+    "composition": "U10Si",
+    "n_templates": 31476,
+    "best_eV": 0.027956727000997675
+  },
+  {
+    "timestamp": "2026-03-10T19:37:33.093687",
+    "model": "RF-ALL",
+    "composition": "U9Si",
+    "n_templates": 31476,
+    "best_eV": 0.030237342813998237
+  },
+  {
+    "timestamp": "2026-03-10T19:37:34.127330",
+    "model": "RF-ALL",
+    "composition": "U8Si",
+    "n_templates": 31476,
+    "best_eV": 0.027752392844200655
+  },
+  {
+    "timestamp": "2026-03-10T19:37:35.165837",
+    "model": "RF-ALL",
+    "composition": "U7Si",
+    "n_templates": 31476,
+    "best_eV": 0.0275245638164301
+  },
+  {
+    "timestamp": "2026-03-10T19:37:36.236270",
+    "model": "RF-ALL",
+    "composition": "U6Si",
+    "n_templates": 31476,
+    "best_eV": -0.014478113949046889
+  },
+  {
+    "timestamp": "2026-03-10T19:37:37.283539",
+    "model": "RF-ALL",
+    "composition": "U5Si",
+    "n_templates": 31476,
+    "best_eV": -0.057066214875852124
+  },
+  {
+    "timestamp": "2026-03-10T19:37:38.307101",
+    "model": "RF-ALL",
+    "composition": "U9Si2",
+    "n_templates": 31476,
+    "best_eV": -0.08225102684298038
+  },
+  {
+    "timestamp": "2026-03-10T19:37:39.377272",
+    "model": "RF-ALL",
+    "composition": "U4Si",
+    "n_templates": 31476,
+    "best_eV": -0.1361291832563223
+  },
+  {
+    "timestamp": "2026-03-10T19:37:40.497872",
+    "model": "RF-ALL",
+    "composition": "U7Si2",
+    "n_templates": 31476,
+    "best_eV": -0.1712114097831381
+  },
+  {
+    "timestamp": "2026-03-10T19:37:41.884038",
+    "model": "RF-ALL",
+    "composition": "U3Si",
+    "n_templates": 31476,
+    "best_eV": -0.18553421847806156
+  },
+  {
+    "timestamp": "2026-03-10T19:37:42.959442",
+    "model": "RF-ALL",
+    "composition": "U8Si3",
+    "n_templates": 31476,
+    "best_eV": -0.21421285838448875
+  },
+  {
+    "timestamp": "2026-03-10T19:37:44.036450",
+    "model": "RF-ALL",
+    "composition": "U5Si2",
+    "n_templates": 31476,
+    "best_eV": -0.2107964163381954
+  },
+  {
+    "timestamp": "2026-03-10T19:37:45.144977",
+    "model": "RF-ALL",
+    "composition": "U7Si3",
+    "n_templates": 31476,
+    "best_eV": -0.24111776460633536
+  },
+  {
+    "timestamp": "2026-03-10T19:37:46.211075",
+    "model": "RF-ALL",
+    "composition": "U2Si",
+    "n_templates": 31476,
+    "best_eV": -0.24169780167927077
+  },
+  {
+    "timestamp": "2026-03-10T19:37:47.251999",
+    "model": "RF-ALL",
+    "composition": "U7Si4",
+    "n_templates": 31476,
+    "best_eV": -0.22546156395794814
+  },
+  {
+    "timestamp": "2026-03-10T19:37:48.330589",
+    "model": "RF-ALL",
+    "composition": "U5Si3",
+    "n_templates": 31476,
+    "best_eV": -0.22221613704321536
+  },
+  {
+    "timestamp": "2026-03-10T19:37:49.518131",
+    "model": "RF-ALL",
+    "composition": "U3Si2",
+    "n_templates": 31476,
+    "best_eV": -0.19980341467731133
+  },
+  {
+    "timestamp": "2026-03-10T19:37:50.556485",
+    "model": "RF-ALL",
+    "composition": "U7Si5",
+    "n_templates": 31476,
+    "best_eV": -0.19841790791744007
+  },
+  {
+    "timestamp": "2026-03-10T19:37:51.649670",
+    "model": "RF-ALL",
+    "composition": "U4Si3",
+    "n_templates": 31476,
+    "best_eV": -0.24939040818500668
+  },
+  {
+    "timestamp": "2026-03-10T19:37:52.676030",
+    "model": "RF-ALL",
+    "composition": "U5Si4",
+    "n_templates": 31476,
+    "best_eV": -0.26871599128792856
+  },
+  {
+    "timestamp": "2026-03-10T19:37:53.752978",
+    "model": "RF-ALL",
+    "composition": "U6Si5",
+    "n_templates": 31476,
+    "best_eV": -0.2643007503398103
+  },
+  {
+    "timestamp": "2026-03-10T19:37:55.008983",
+    "model": "RF-ALL",
+    "composition": "USi",
+    "n_templates": 31476,
+    "best_eV": -0.31756162002774874
+  },
+  {
+    "timestamp": "2026-03-10T19:37:56.113499",
+    "model": "RF-ALL",
+    "composition": "U5Si6",
+    "n_templates": 31476,
+    "best_eV": -0.3536398737863052
+  },
+  {
+    "timestamp": "2026-03-10T19:37:57.189749",
+    "model": "RF-ALL",
+    "composition": "U4Si5",
+    "n_templates": 31476,
+    "best_eV": -0.36331272220005145
+  },
+  {
+    "timestamp": "2026-03-10T19:37:58.313355",
+    "model": "RF-ALL",
+    "composition": "U3Si4",
+    "n_templates": 31476,
+    "best_eV": -0.3629456290648431
+  },
+  {
+    "timestamp": "2026-03-10T19:37:59.433364",
+    "model": "RF-ALL",
+    "composition": "U5Si7",
+    "n_templates": 31476,
+    "best_eV": -0.344671195495198
+  },
+  {
+    "timestamp": "2026-03-10T19:38:00.516849",
+    "model": "RF-ALL",
+    "composition": "U2Si3",
+    "n_templates": 31476,
+    "best_eV": -0.3542274324992038
+  },
+  {
+    "timestamp": "2026-03-10T19:38:01.658138",
+    "model": "RF-ALL",
+    "composition": "U3Si5",
+    "n_templates": 31476,
+    "best_eV": -0.36031749978944067
+  },
+  {
+    "timestamp": "2026-03-10T19:38:02.787894",
+    "model": "RF-ALL",
+    "composition": "U4Si7",
+    "n_templates": 31476,
+    "best_eV": -0.3585164488160287
+  },
+  {
+    "timestamp": "2026-03-10T19:38:04.206330",
+    "model": "RF-ALL",
+    "composition": "USi2",
+    "n_templates": 31476,
+    "best_eV": -0.34776772703317754
+  },
+  {
+    "timestamp": "2026-03-10T19:38:05.311380",
+    "model": "RF-ALL",
+    "composition": "U3Si7",
+    "n_templates": 31476,
+    "best_eV": -0.3212993397089617
+  },
+  {
+    "timestamp": "2026-03-10T19:38:06.397893",
+    "model": "RF-ALL",
+    "composition": "U2Si5",
+    "n_templates": 31476,
+    "best_eV": -0.2798696295835953
+  },
+  {
+    "timestamp": "2026-03-10T19:38:07.486051",
+    "model": "RF-ALL",
+    "composition": "U3Si8",
+    "n_templates": 31476,
+    "best_eV": -0.2730939604109233
+  },
+  {
+    "timestamp": "2026-03-10T19:38:08.689468",
+    "model": "RF-ALL",
+    "composition": "USi3",
+    "n_templates": 31476,
+    "best_eV": -0.21905448562536156
+  },
+  {
+    "timestamp": "2026-03-10T19:38:09.748137",
+    "model": "RF-ALL",
+    "composition": "U2Si7",
+    "n_templates": 31476,
+    "best_eV": -0.2347574915319818
+  },
+  {
+    "timestamp": "2026-03-10T19:38:10.850725",
+    "model": "RF-ALL",
+    "composition": "USi4",
+    "n_templates": 31476,
+    "best_eV": -0.2654696895449975
+  },
+  {
+    "timestamp": "2026-03-10T19:38:11.993416",
+    "model": "RF-ALL",
+    "composition": "U2Si9",
+    "n_templates": 31476,
+    "best_eV": -0.3385014498893462
+  },
+  {
+    "timestamp": "2026-03-10T19:38:13.097712",
+    "model": "RF-ALL",
+    "composition": "USi5",
+    "n_templates": 31476,
+    "best_eV": -0.31413767761002276
+  },
+  {
+    "timestamp": "2026-03-10T19:38:14.211046",
+    "model": "RF-ALL",
+    "composition": "USi6",
+    "n_templates": 31476,
+    "best_eV": -0.2644502394969779
+  },
+  {
+    "timestamp": "2026-03-10T19:38:15.327282",
+    "model": "RF-ALL",
+    "composition": "USi7",
+    "n_templates": 31476,
+    "best_eV": -0.24235962993022597
+  },
+  {
+    "timestamp": "2026-03-10T19:38:16.439982",
+    "model": "RF-ALL",
+    "composition": "USi8",
+    "n_templates": 31476,
+    "best_eV": -0.22935540022571704
+  },
+  {
+    "timestamp": "2026-03-10T19:38:17.539408",
+    "model": "RF-ALL",
+    "composition": "USi9",
+    "n_templates": 31476,
+    "best_eV": -0.19913072129479104
+  },
+  {
+    "timestamp": "2026-03-10T19:38:18.624046",
+    "model": "RF-ALL",
+    "composition": "USi10",
+    "n_templates": 31476,
+    "best_eV": -0.17852736235284747
+  },
+  {
+    "timestamp": "2026-03-10T19:38:19.701286",
+    "model": "RF-ALL",
+    "composition": "USi11",
+    "n_templates": 31476,
+    "best_eV": -0.15605994789890912
+  }
+]

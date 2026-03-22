@@ -1,0 +1,1261 @@
+{
+  "models": {
+    "struct": "model/model_3.joblib",
+    "comp": "model/aeris_full_structure_classic.pt"
+  },
+  "table_a1": {
+    "Cr2N": {
+      "ml_struct": -0.3026609203029631,
+      "ml_comp": -0.22163671255111694,
+      "dft": -0.42
+    },
+    "Cr3N2": {
+      "ml_struct": -0.6122313177486305,
+      "ml_comp": -0.3486921191215515,
+      "dft": -0.47
+    },
+    "Cr3N4": {
+      "ml_struct": -0.5045278639190005,
+      "ml_comp": -0.3105960488319397,
+      "dft": -0.57
+    },
+    "CrN": {
+      "ml_struct": -0.6940346405589066,
+      "ml_comp": -0.4397764205932617,
+      "dft": -0.55
+    },
+    "Mo15N16": {
+      "ml_struct": -0.4132750070699588,
+      "ml_comp": -0.44333139061927795,
+      "dft": -0.23
+    },
+    "Mo2N": {
+      "ml_struct": -0.09470304080184086,
+      "ml_comp": -0.3890118896961212,
+      "dft": -0.31
+    },
+    "Mo2N3": {
+      "ml_struct": -0.12424613084309598,
+      "ml_comp": -0.35515281558036804,
+      "dft": -0.17
+    },
+    "MoN": {
+      "ml_struct": -0.3461279610219629,
+      "ml_comp": -0.49926796555519104,
+      "dft": -0.46
+    },
+    "Nb2N": {
+      "ml_struct": -0.8139257942228691,
+      "ml_comp": -1.0094419717788696,
+      "dft": -0.89
+    },
+    "Nb5N6": {
+      "ml_struct": -1.0618701409422577,
+      "ml_comp": -1.2400671243667603,
+      "dft": -1.02
+    },
+    "NbN": {
+      "ml_struct": -1.0809725385746543,
+      "ml_comp": -1.277360439300537,
+      "dft": -1.08
+    },
+    "Ta2N": {
+      "ml_struct": -0.9772827075242888,
+      "ml_comp": -0.7334579825401306,
+      "dft": -0.93
+    },
+    "Ta3N5": {
+      "ml_struct": -1.1632190412659036,
+      "ml_comp": -1.2913132905960083,
+      "dft": -1.07
+    },
+    "Ta5N6": {
+      "ml_struct": -1.1763882937206622,
+      "ml_comp": -1.2515579462051392,
+      "dft": -1.14
+    },
+    "TaN": {
+      "ml_struct": -1.2642579143868131,
+      "ml_comp": -1.1206560134887695,
+      "dft": -1.18
+    },
+    "U2CrN3": {
+      "ml_struct": -1.4789186234543898,
+      "ml_comp": -1.4068310260772705,
+      "dft": -1.34
+    },
+    "UN": {
+      "ml_struct": -1.7153609234151925,
+      "ml_comp": -1.554206371307373,
+      "dft": -1.57
+    },
+    "UNbN2": {
+      "ml_struct": -1.4510306669670237,
+      "ml_comp": -1.6457599401474,
+      "dft": -1.43
+    },
+    "UTaN2": {
+      "ml_struct": -1.5875597296509034,
+      "ml_comp": -1.5120124816894531,
+      "dft": -1.83
+    },
+    "UVN2": {
+      "ml_struct": -1.6145258265285098,
+      "ml_comp": -1.444726824760437,
+      "dft": -1.42
+    },
+    "V2N": {
+      "ml_struct": -0.9302449908642382,
+      "ml_comp": -0.8019612431526184,
+      "dft": -0.98
+    },
+    "V2N3": {
+      "ml_struct": -1.1911170097603676,
+      "ml_comp": -0.8452852368354797,
+      "dft": -0.76
+    },
+    "V8N": {
+      "ml_struct": -0.27969484427647484,
+      "ml_comp": -0.21015256643295288,
+      "dft": -0.34
+    },
+    "VN": {
+      "ml_struct": -1.1361856085733915,
+      "ml_comp": -0.9785001277923584,
+      "dft": -1.17
+    },
+    "W2N3": {
+      "ml_struct": 0.24630574028687355,
+      "ml_comp": -0.24261964857578278,
+      "dft": -0.48
+    },
+    "WN": {
+      "ml_struct": 0.12383295703504262,
+      "ml_comp": -0.20880739390850067,
+      "dft": -0.1
+    },
+    "WN2": {
+      "ml_struct": 0.7870056255556367,
+      "ml_comp": -0.1993352323770523,
+      "dft": -0.29
+    }
+  },
+  "table_a2": [
+    {
+      "metal": "V",
+      "equation": "UN + 8V = V8N + U",
+      "ml_struct": 0.09134682483421117,
+      "ml_comp": 0.12170396447181701,
+      "dft": 0.01,
+      "is_minimum": true
+    },
+    {
+      "metal": "V",
+      "equation": "UN + 2V = V2N + U",
+      "ml_struct": 0.15999671855941766,
+      "ml_comp": 0.17563225328922272,
+      "dft": 0.05,
+      "is_minimum": false
+    },
+    {
+      "metal": "V",
+      "equation": "UN + V = VN + U",
+      "ml_struct": 0.3861168765612007,
+      "ml_comp": 0.3838041623433431,
+      "dft": 0.27,
+      "is_minimum": false
+    },
+    {
+      "metal": "V",
+      "equation": "3UN + 2V = V2N3 + 3U",
+      "ml_struct": 0.5420725614611646,
+      "ml_comp": 0.637351505458355,
+      "dft": 0.7,
+      "is_minimum": false
+    },
+    {
+      "metal": "V",
+      "equation": "2UN + V = UVN2 + U",
+      "ml_struct": 0.08066807750934615,
+      "ml_comp": 0.08758363723754883,
+      "dft": 0.12,
+      "is_minimum": false
+    },
+    {
+      "metal": "Nb",
+      "equation": "UN + 2Nb = Nb2N + U",
+      "ml_struct": 0.24723611604044438,
+      "ml_comp": 0.020021706819534302,
+      "dft": 0.12,
+      "is_minimum": false
+    },
+    {
+      "metal": "Nb",
+      "equation": "UN + Nb = NbN + U",
+      "ml_struct": 0.42292558989369217,
+      "ml_comp": 0.18456395467122397,
+      "dft": 0.33,
+      "is_minimum": false
+    },
+    {
+      "metal": "Nb",
+      "equation": "6UN + 5Nb = Nb5N6 + 6U",
+      "ml_struct": 0.5237505606245573,
+      "ml_comp": 0.29469047574435964,
+      "dft": 0.45,
+      "is_minimum": false
+    },
+    {
+      "metal": "Nb",
+      "equation": "2UN + Nb = UNbN2 + U",
+      "ml_struct": 0.2114642051585351,
+      "ml_comp": -0.07324285507202148,
+      "dft": 0.11,
+      "is_minimum": true
+    },
+    {
+      "metal": "Ta",
+      "equation": "UN + 2Ta = Ta2N + U",
+      "ml_struct": 0.12471843106437963,
+      "ml_comp": 0.22700969874858856,
+      "dft": 0.09,
+      "is_minimum": false
+    },
+    {
+      "metal": "Ta",
+      "equation": "UN + Ta = TaN + U",
+      "ml_struct": 0.30073533935225294,
+      "ml_comp": 0.28903357187906903,
+      "dft": 0.26,
+      "is_minimum": false
+    },
+    {
+      "metal": "Ta",
+      "equation": "6UN + 5Ta = Ta5N6 + 6U",
+      "ml_struct": 0.44965057941500153,
+      "ml_comp": 0.2872552380842321,
+      "dft": 0.37,
+      "is_minimum": false
+    },
+    {
+      "metal": "Ta",
+      "equation": "5UN + 3Ta = Ta3N5 + 5U",
+      "ml_struct": 0.6036813003095921,
+      "ml_comp": 0.40088902986966646,
+      "dft": 0.55,
+      "is_minimum": false
+    },
+    {
+      "metal": "Ta",
+      "equation": "2UN + Ta = UTaN2 + U",
+      "ml_struct": 0.1022409550114313,
+      "ml_comp": 0.03375511169433594,
+      "dft": -0.21,
+      "is_minimum": true
+    },
+    {
+      "metal": "Cr",
+      "equation": "UN + 2Cr = Cr2N + U",
+      "ml_struct": 0.6306847714803739,
+      "ml_comp": 0.6108756512403488,
+      "dft": 0.47,
+      "is_minimum": false
+    },
+    {
+      "metal": "Cr",
+      "equation": "2UN + 3Cr = Cr3N2 + 2U",
+      "ml_struct": 0.542898157845374,
+      "ml_comp": 0.6390521270888192,
+      "dft": 0.56,
+      "is_minimum": false
+    },
+    {
+      "metal": "Cr",
+      "equation": "UN + Cr = CrN + U",
+      "ml_struct": 0.6808841885708573,
+      "ml_comp": 0.7429533004760742,
+      "dft": 0.68,
+      "is_minimum": false
+    },
+    {
+      "metal": "Cr",
+      "equation": "4UN + 3Cr = Cr3N4 + 4U",
+      "ml_struct": 0.926472030898958,
+      "ml_comp": 0.9326798753304915,
+      "dft": 0.78,
+      "is_minimum": false
+    },
+    {
+      "metal": "Cr",
+      "equation": "3UN + Cr = U2CrN3 + U",
+      "ml_struct": 0.20266482853783074,
+      "ml_comp": 0.12632172448294504,
+      "dft": 0.2,
+      "is_minimum": true
+    },
+    {
+      "metal": "Mo",
+      "equation": "UN + 2Mo = Mo2N + U",
+      "ml_struct": 0.7866531811062156,
+      "ml_comp": 0.4853442683815956,
+      "dft": 0.55,
+      "is_minimum": true
+    },
+    {
+      "metal": "Mo",
+      "equation": "UN + Mo = MoN + U",
+      "ml_struct": 0.9128219749288197,
+      "ml_comp": 0.7032922705014547,
+      "dft": 0.74,
+      "is_minimum": false
+    },
+    {
+      "metal": "Mo",
+      "equation": "16UN + 15Mo = Mo15N16 + 16U",
+      "ml_struct": 0.8953196665982434,
+      "ml_comp": 0.7657729951625175,
+      "dft": 0.92,
+      "is_minimum": false
+    },
+    {
+      "metal": "Mo",
+      "equation": "3UN + 2Mo = Mo2N3 + 3U",
+      "ml_struct": 1.2088668607844593,
+      "ml_comp": 0.9436842687427998,
+      "dft": 1.07,
+      "is_minimum": false
+    },
+    {
+      "metal": "W",
+      "equation": "UN + W = WN + U",
+      "ml_struct": 1.2261292536334902,
+      "ml_comp": 0.8969326515992483,
+      "dft": 0.98,
+      "is_minimum": false
+    },
+    {
+      "metal": "W",
+      "equation": "3UN + 2W = W2N3 + 3U",
+      "ml_struct": 1.4404617802406903,
+      "ml_comp": 1.0140174981206656,
+      "dft": 0.88,
+      "is_minimum": true
+    },
+    {
+      "metal": "W",
+      "equation": "2UN + W = WN2 + 2U",
+      "ml_struct": 1.844492114065536,
+      "ml_comp": 1.123763957619667,
+      "dft": 1.08,
+      "is_minimum": false
+    }
+  ],
+  "table_2_struct": [
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-V8N",
+      "ml": {
+        "Vac. U": 1.854,
+        "Vac. N": 1.004,
+        "Inter. N": 1.887,
+        "X on U": 5.989,
+        "X on N": 6.104
+      },
+      "dft": {
+        "Vac. U": 3.3,
+        "Vac. N": 0.85,
+        "Inter. N": 5.39,
+        "X on U": 2.41,
+        "X on N": 3.66
+      }
+    },
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-V2N",
+      "ml": {
+        "Vac. U": 2.127,
+        "Vac. N": 0.731,
+        "Inter. N": 2.161,
+        "X on U": 6.262,
+        "X on N": 5.831
+      },
+      "dft": {
+        "Vac. U": 3.23,
+        "Vac. N": 0.93,
+        "Inter. N": 5.32,
+        "X on U": 2.34,
+        "X on N": 3.73
+      }
+    },
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-VN",
+      "ml": {
+        "Vac. U": 1.609,
+        "Vac. N": 1.249,
+        "Inter. N": 1.642,
+        "X on U": 5.744,
+        "X on N": 6.349
+      },
+      "dft": {
+        "Vac. U": 2.65,
+        "Vac. N": 1.52,
+        "Inter. N": 4.74,
+        "X on U": 1.75,
+        "X on N": 4.31
+      }
+    },
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-V2N3",
+      "ml": {
+        "Vac. U": 1.322,
+        "Vac. N": 1.536,
+        "Inter. N": 1.355,
+        "X on U": 5.456,
+        "X on N": 6.636
+      },
+      "dft": {
+        "Vac. U": 1.59,
+        "Vac. N": 2.57,
+        "Inter. N": 3.68,
+        "X on U": 0.7,
+        "X on N": 5.37
+      }
+    },
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-UVN2",
+      "ml": {
+        "Vac. U": 2.364,
+        "Vac. N": 0.494,
+        "Inter. N": 2.397,
+        "X on U": 6.499,
+        "X on N": 5.594
+      },
+      "dft": {
+        "Vac. U": 2.87,
+        "Vac. N": 1.29,
+        "Inter. N": 4.96,
+        "X on U": 1.98,
+        "X on N": 4.09
+      }
+    },
+    {
+      "metal": "Nb",
+      "equilibrium": "UN-Nb-Nb2N",
+      "ml": {
+        "Vac. U": 1.778,
+        "Vac. N": 1.08,
+        "Inter. N": 1.812,
+        "X on U": 5.675,
+        "X on N": 5.95
+      },
+      "dft": {
+        "Vac. U": 2.95,
+        "Vac. N": 1.22,
+        "Inter. N": 5.04,
+        "X on U": 0.93,
+        "X on N": 5.73
+      }
+    },
+    {
+      "metal": "Nb",
+      "equilibrium": "UN-Nb-NbN",
+      "ml": {
+        "Vac. U": 1.499,
+        "Vac. N": 1.36,
+        "Inter. N": 1.532,
+        "X on U": 5.395,
+        "X on N": 6.23
+      },
+      "dft": {
+        "Vac. U": 2.43,
+        "Vac. N": 1.71,
+        "Inter. N": 4.55,
+        "X on U": 0.43,
+        "X on N": 6.22
+      }
+    },
+    {
+      "metal": "Nb",
+      "equilibrium": "UN-Nb-UNbN2",
+      "ml": {
+        "Vac. U": 1.71,
+        "Vac. N": 1.148,
+        "Inter. N": 1.743,
+        "X on U": 5.606,
+        "X on N": 6.018
+      },
+      "dft": {
+        "Vac. U": 2.72,
+        "Vac. N": 1.44,
+        "Inter. N": 4.82,
+        "X on U": 0.7,
+        "X on N": 5.95
+      }
+    },
+    {
+      "metal": "Nb",
+      "equilibrium": "UN-Nb-Nb5N6",
+      "ml": {
+        "Vac. U": 1.283,
+        "Vac. N": 1.575,
+        "Inter. N": 1.317,
+        "X on U": 5.18,
+        "X on N": 6.445
+      },
+      "dft": {
+        "Vac. U": 2.17,
+        "Vac. N": 1.99,
+        "Inter. N": 4.26,
+        "X on U": 0.15,
+        "X on N": 6.51
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-Ta2N",
+      "ml": {
+        "Vac. U": 2.268,
+        "Vac. N": 0.59,
+        "Inter. N": 2.302,
+        "X on U": 7.408,
+        "X on N": 6.95
+      },
+      "dft": {
+        "Vac. U": 3.07,
+        "Vac. N": 1.1,
+        "Inter. N": 5.13,
+        "X on U": 1.12,
+        "X on N": 6.01
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-TaN",
+      "ml": {
+        "Vac. U": 1.865,
+        "Vac. N": 0.993,
+        "Inter. N": 1.899,
+        "X on U": 7.005,
+        "X on N": 7.353
+      },
+      "dft": {
+        "Vac. U": 2.66,
+        "Vac. N": 1.5,
+        "Inter. N": 4.76,
+        "X on U": 0.72,
+        "X on N": 6.41
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-Ta3N5",
+      "ml": {
+        "Vac. U": 1.198,
+        "Vac. N": 1.66,
+        "Inter. N": 1.231,
+        "X on U": 6.337,
+        "X on N": 8.021
+      },
+      "dft": {
+        "Vac. U": 2.39,
+        "Vac. N": 1.77,
+        "Inter. N": 4.49,
+        "X on U": 0.45,
+        "X on N": 6.68
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-Ta5N6",
+      "ml": {
+        "Vac. U": 1.493,
+        "Vac. N": 1.365,
+        "Inter. N": 1.527,
+        "X on U": 6.633,
+        "X on N": 7.725
+      },
+      "dft": {
+        "Vac. U": 2.0,
+        "Vac. N": 2.16,
+        "Inter. N": 4.1,
+        "X on U": 0.06,
+        "X on N": 7.07
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-UTaN2",
+      "ml": {
+        "Vac. U": 2.256,
+        "Vac. N": 0.602,
+        "Inter. N": 2.29,
+        "X on U": 7.396,
+        "X on N": 6.962
+      },
+      "dft": {
+        "Vac. U": 4.43,
+        "Vac. N": -0.27,
+        "Inter. N": 6.52,
+        "X on U": 2.51,
+        "X on N": 4.65
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-Cr2N",
+      "ml": {
+        "Vac. U": 0.245,
+        "Vac. N": 2.614,
+        "Inter. N": 0.278,
+        "X on U": 4.897,
+        "X on N": 7.991
+      },
+      "dft": {
+        "Vac. U": 1.55,
+        "Vac. N": 2.61,
+        "Inter. N": 3.65,
+        "X on U": 1.54,
+        "X on N": 5.38
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-Cr3N2",
+      "ml": {
+        "Vac. U": 0.867,
+        "Vac. N": 1.991,
+        "Inter. N": 0.901,
+        "X on U": 5.52,
+        "X on N": 7.368
+      },
+      "dft": {
+        "Vac. U": 1.39,
+        "Vac. N": 2.77,
+        "Inter. N": 3.48,
+        "X on U": 1.77,
+        "X on N": 5.75
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-CrN",
+      "ml": {
+        "Vac. U": 0.725,
+        "Vac. N": 2.134,
+        "Inter. N": 0.758,
+        "X on U": 5.377,
+        "X on N": 7.511
+      },
+      "dft": {
+        "Vac. U": 1.39,
+        "Vac. N": 2.77,
+        "Inter. N": 3.48,
+        "X on U": 1.77,
+        "X on N": 5.25
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-Cr3N4",
+      "ml": {
+        "Vac. U": 0.22,
+        "Vac. N": 2.639,
+        "Inter. N": 0.253,
+        "X on U": 4.872,
+        "X on N": 8.016
+      },
+      "dft": {
+        "Vac. U": 0.89,
+        "Vac. N": 3.27,
+        "Inter. N": 2.99,
+        "X on U": 1.27,
+        "X on N": 6.25
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-U2CrN3",
+      "ml": {
+        "Vac. U": 1.349,
+        "Vac. N": 1.51,
+        "Inter. N": 1.382,
+        "X on U": 6.001,
+        "X on N": 6.887
+      },
+      "dft": {
+        "Vac. U": 1.96,
+        "Vac. N": 2.2,
+        "Inter. N": 4.05,
+        "X on U": 2.34,
+        "X on N": 5.18
+      }
+    },
+    {
+      "metal": "Mo",
+      "equilibrium": "UN-Mo-Mo2N",
+      "ml": {
+        "Vac. U": -0.379,
+        "Vac. N": 3.238,
+        "Inter. N": -0.346,
+        "X on U": 3.678,
+        "X on N": 8.445
+      },
+      "dft": {
+        "Vac. U": 1.22,
+        "Vac. N": 2.94,
+        "Inter. N": 3.31,
+        "X on U": 0.85,
+        "X on N": 6.26
+      }
+    },
+    {
+      "metal": "Mo",
+      "equilibrium": "UN-Mo-MoN",
+      "ml": {
+        "Vac. U": 0.029,
+        "Vac. N": 2.829,
+        "Inter. N": 0.062,
+        "X on U": 4.086,
+        "X on N": 8.037
+      },
+      "dft": {
+        "Vac. U": 0.83,
+        "Vac. N": 3.31,
+        "Inter. N": 2.62,
+        "X on U": 0.49,
+        "X on N": 6.65
+      }
+    },
+    {
+      "metal": "Mo",
+      "equilibrium": "UN-Mo-Mo15N16",
+      "ml": {
+        "Vac. U": 0.137,
+        "Vac. N": 2.721,
+        "Inter. N": 0.171,
+        "X on U": 4.195,
+        "X on N": 7.928
+      },
+      "dft": {
+        "Vac. U": 1.17,
+        "Vac. N": 3.0,
+        "Inter. N": 3.26,
+        "X on U": 0.79,
+        "X on N": 6.32
+      }
+    },
+    {
+      "metal": "W",
+      "equilibrium": "UN-W-WN",
+      "ml": {
+        "Vac. U": -0.911,
+        "Vac. N": 3.769,
+        "Inter. N": -0.878,
+        "X on U": 4.09,
+        "X on N": 10.844
+      },
+      "dft": {
+        "Vac. U": 0.31,
+        "Vac. N": 3.65,
+        "Inter. N": 2.6,
+        "X on U": 0.57,
+        "X on N": 8.21
+      }
+    },
+    {
+      "metal": "W",
+      "equilibrium": "UN-W-W2N3",
+      "ml": {
+        "Vac. U": -1.074,
+        "Vac. N": 3.932,
+        "Inter. N": -1.04,
+        "X on U": 3.927,
+        "X on N": 11.007
+      },
+      "dft": {
+        "Vac. U": 1.1,
+        "Vac. N": 3.07,
+        "Inter. N": 3.19,
+        "X on U": 1.15,
+        "X on N": 7.62
+      }
+    },
+    {
+      "metal": "W",
+      "equilibrium": "UN-W-WN2",
+      "ml": {
+        "Vac. U": -1.844,
+        "Vac. N": 4.702,
+        "Inter. N": -1.81,
+        "X on U": 3.157,
+        "X on N": 11.777
+      },
+      "dft": {
+        "Vac. U": 0.75,
+        "Vac. N": 3.42,
+        "Inter. N": 2.84,
+        "X on U": 0.81,
+        "X on N": 7.97
+      }
+    }
+  ],
+  "table_2_comp": [
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-V8N",
+      "ml": {
+        "Vac. U": -1.852,
+        "Vac. N": 5.757,
+        "Inter. N": -1.901,
+        "X on U": 1.607,
+        "X on N": 11.363
+      },
+      "dft": {
+        "Vac. U": 3.3,
+        "Vac. N": 0.85,
+        "Inter. N": 5.39,
+        "X on U": 2.41,
+        "X on N": 3.66
+      }
+    },
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-V2N",
+      "ml": {
+        "Vac. U": -1.337,
+        "Vac. N": 5.242,
+        "Inter. N": -1.386,
+        "X on U": 2.122,
+        "X on N": 10.848
+      },
+      "dft": {
+        "Vac. U": 3.23,
+        "Vac. N": 0.93,
+        "Inter. N": 5.32,
+        "X on U": 2.34,
+        "X on N": 3.73
+      }
+    },
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-VN",
+      "ml": {
+        "Vac. U": -1.786,
+        "Vac. N": 5.691,
+        "Inter. N": -1.835,
+        "X on U": 1.673,
+        "X on N": 11.297
+      },
+      "dft": {
+        "Vac. U": 2.65,
+        "Vac. N": 1.52,
+        "Inter. N": 4.74,
+        "X on U": 1.75,
+        "X on N": 4.31
+      }
+    },
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-V2N3",
+      "ml": {
+        "Vac. U": -2.334,
+        "Vac. N": 6.239,
+        "Inter. N": -2.383,
+        "X on U": 1.125,
+        "X on N": 11.845
+      },
+      "dft": {
+        "Vac. U": 1.59,
+        "Vac. N": 2.57,
+        "Inter. N": 3.68,
+        "X on U": 0.7,
+        "X on N": 5.37
+      }
+    },
+    {
+      "metal": "V",
+      "equilibrium": "UN-V-UVN2",
+      "ml": {
+        "Vac. U": -1.073,
+        "Vac. N": 4.978,
+        "Inter. N": -1.122,
+        "X on U": 2.387,
+        "X on N": 10.584
+      },
+      "dft": {
+        "Vac. U": 2.87,
+        "Vac. N": 1.29,
+        "Inter. N": 4.96,
+        "X on U": 1.98,
+        "X on N": 4.09
+      }
+    },
+    {
+      "metal": "Nb",
+      "equilibrium": "UN-Nb-Nb2N",
+      "ml": {
+        "Vac. U": -0.715,
+        "Vac. N": 4.62,
+        "Inter. N": -0.764,
+        "X on U": -0.772,
+        "X on N": 6.63
+      },
+      "dft": {
+        "Vac. U": 2.95,
+        "Vac. N": 1.22,
+        "Inter. N": 5.04,
+        "X on U": 0.93,
+        "X on N": 5.73
+      }
+    },
+    {
+      "metal": "Nb",
+      "equilibrium": "UN-Nb-NbN",
+      "ml": {
+        "Vac. U": -1.188,
+        "Vac. N": 5.094,
+        "Inter. N": -1.237,
+        "X on U": -1.246,
+        "X on N": 7.103
+      },
+      "dft": {
+        "Vac. U": 2.43,
+        "Vac. N": 1.71,
+        "Inter. N": 4.55,
+        "X on U": 0.43,
+        "X on N": 6.22
+      }
+    },
+    {
+      "metal": "Nb",
+      "equilibrium": "UN-Nb-UNbN2",
+      "ml": {
+        "Vac. U": -0.268,
+        "Vac. N": 4.174,
+        "Inter. N": -0.318,
+        "X on U": -0.326,
+        "X on N": 6.183
+      },
+      "dft": {
+        "Vac. U": 2.72,
+        "Vac. N": 1.44,
+        "Inter. N": 4.82,
+        "X on U": 0.7,
+        "X on N": 5.95
+      }
+    },
+    {
+      "metal": "Nb",
+      "equilibrium": "UN-Nb-Nb5N6",
+      "ml": {
+        "Vac. U": -1.47,
+        "Vac. N": 5.375,
+        "Inter. N": -1.519,
+        "X on U": -1.527,
+        "X on N": 7.385
+      },
+      "dft": {
+        "Vac. U": 2.17,
+        "Vac. N": 1.99,
+        "Inter. N": 4.26,
+        "X on U": 0.15,
+        "X on N": 6.51
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-Ta2N",
+      "ml": {
+        "Vac. U": -1.543,
+        "Vac. N": 5.448,
+        "Inter. N": -1.592,
+        "X on U": 2.411,
+        "X on N": 14.576
+      },
+      "dft": {
+        "Vac. U": 3.07,
+        "Vac. N": 1.1,
+        "Inter. N": 5.13,
+        "X on U": 1.12,
+        "X on N": 6.01
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-TaN",
+      "ml": {
+        "Vac. U": -1.502,
+        "Vac. N": 5.407,
+        "Inter. N": -1.551,
+        "X on U": 2.452,
+        "X on N": 14.535
+      },
+      "dft": {
+        "Vac. U": 2.66,
+        "Vac. N": 1.5,
+        "Inter. N": 4.76,
+        "X on U": 0.72,
+        "X on N": 6.41
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-Ta3N5",
+      "ml": {
+        "Vac. U": -1.677,
+        "Vac. N": 5.582,
+        "Inter. N": -1.726,
+        "X on U": 2.277,
+        "X on N": 14.71
+      },
+      "dft": {
+        "Vac. U": 2.39,
+        "Vac. N": 1.77,
+        "Inter. N": 4.49,
+        "X on U": 0.45,
+        "X on N": 6.68
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-Ta5N6",
+      "ml": {
+        "Vac. U": -1.448,
+        "Vac. N": 5.354,
+        "Inter. N": -1.498,
+        "X on U": 2.506,
+        "X on N": 14.482
+      },
+      "dft": {
+        "Vac. U": 2.0,
+        "Vac. N": 2.16,
+        "Inter. N": 4.1,
+        "X on U": 0.06,
+        "X on N": 7.07
+      }
+    },
+    {
+      "metal": "Ta",
+      "equilibrium": "UN-Ta-UTaN2",
+      "ml": {
+        "Vac. U": -0.803,
+        "Vac. N": 4.709,
+        "Inter. N": -0.853,
+        "X on U": 3.151,
+        "X on N": 13.837
+      },
+      "dft": {
+        "Vac. U": 4.43,
+        "Vac. N": -0.27,
+        "Inter. N": 6.52,
+        "X on U": 2.51,
+        "X on N": 4.65
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-Cr2N",
+      "ml": {
+        "Vac. U": -3.078,
+        "Vac. N": 6.983,
+        "Inter. N": -3.127,
+        "X on U": -1.576,
+        "X on N": 10.086
+      },
+      "dft": {
+        "Vac. U": 1.55,
+        "Vac. N": 2.61,
+        "Inter. N": 3.65,
+        "X on U": 1.54,
+        "X on N": 5.38
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-Cr3N2",
+      "ml": {
+        "Vac. U": -2.871,
+        "Vac. N": 6.777,
+        "Inter. N": -2.92,
+        "X on U": -1.369,
+        "X on N": 9.879
+      },
+      "dft": {
+        "Vac. U": 1.39,
+        "Vac. N": 2.77,
+        "Inter. N": 3.48,
+        "X on U": 1.77,
+        "X on N": 5.75
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-CrN",
+      "ml": {
+        "Vac. U": -2.863,
+        "Vac. N": 6.769,
+        "Inter. N": -2.913,
+        "X on U": -1.361,
+        "X on N": 9.871
+      },
+      "dft": {
+        "Vac. U": 1.39,
+        "Vac. N": 2.77,
+        "Inter. N": 3.48,
+        "X on U": 1.77,
+        "X on N": 5.25
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-Cr3N4",
+      "ml": {
+        "Vac. U": -3.199,
+        "Vac. N": 7.105,
+        "Inter. N": -3.249,
+        "X on U": -1.697,
+        "X on N": 10.207
+      },
+      "dft": {
+        "Vac. U": 0.89,
+        "Vac. N": 3.27,
+        "Inter. N": 2.99,
+        "X on U": 1.27,
+        "X on N": 6.25
+      }
+    },
+    {
+      "metal": "Cr",
+      "equilibrium": "UN-Cr-U2CrN3",
+      "ml": {
+        "Vac. U": -1.519,
+        "Vac. N": 5.424,
+        "Inter. N": -1.568,
+        "X on U": -0.017,
+        "X on N": 8.526
+      },
+      "dft": {
+        "Vac. U": 1.96,
+        "Vac. N": 2.2,
+        "Inter. N": 4.05,
+        "X on U": 2.34,
+        "X on N": 5.18
+      }
+    },
+    {
+      "metal": "Mo",
+      "equilibrium": "UN-Mo-Mo2N",
+      "ml": {
+        "Vac. U": -2.576,
+        "Vac. N": 6.481,
+        "Inter. N": -2.625,
+        "X on U": -0.274,
+        "X on N": 11.507
+      },
+      "dft": {
+        "Vac. U": 1.22,
+        "Vac. N": 2.94,
+        "Inter. N": 3.31,
+        "X on U": 0.85,
+        "X on N": 6.26
+      }
+    },
+    {
+      "metal": "Mo",
+      "equilibrium": "UN-Mo-MoN",
+      "ml": {
+        "Vac. U": -2.744,
+        "Vac. N": 6.65,
+        "Inter. N": -2.794,
+        "X on U": -0.443,
+        "X on N": 11.675
+      },
+      "dft": {
+        "Vac. U": 0.83,
+        "Vac. N": 3.31,
+        "Inter. N": 2.62,
+        "X on U": 0.49,
+        "X on N": 6.65
+      }
+    },
+    {
+      "metal": "Mo",
+      "equilibrium": "UN-Mo-Mo15N16",
+      "ml": {
+        "Vac. U": -2.884,
+        "Vac. N": 6.789,
+        "Inter. N": -2.933,
+        "X on U": -0.582,
+        "X on N": 11.815
+      },
+      "dft": {
+        "Vac. U": 1.17,
+        "Vac. N": 3.0,
+        "Inter. N": 3.26,
+        "X on U": 0.79,
+        "X on N": 6.32
+      }
+    },
+    {
+      "metal": "W",
+      "equilibrium": "UN-W-WN",
+      "ml": {
+        "Vac. U": -3.325,
+        "Vac. N": 7.231,
+        "Inter. N": -3.375,
+        "X on U": 3.25,
+        "X on N": 20.474
+      },
+      "dft": {
+        "Vac. U": 0.31,
+        "Vac. N": 3.65,
+        "Inter. N": 2.6,
+        "X on U": 0.57,
+        "X on N": 8.21
+      }
+    },
+    {
+      "metal": "W",
+      "equilibrium": "UN-W-W2N3",
+      "ml": {
+        "Vac. U": -3.339,
+        "Vac. N": 7.244,
+        "Inter. N": -3.388,
+        "X on U": 3.236,
+        "X on N": 20.487
+      },
+      "dft": {
+        "Vac. U": 1.1,
+        "Vac. N": 3.07,
+        "Inter. N": 3.19,
+        "X on U": 1.15,
+        "X on N": 7.62
+      }
+    },
+    {
+      "metal": "W",
+      "equilibrium": "UN-W-WN2",
+      "ml": {
+        "Vac. U": -3.444,
+        "Vac. N": 7.349,
+        "Inter. N": -3.493,
+        "X on U": 3.131,
+        "X on N": 20.592
+      },
+      "dft": {
+        "Vac. U": 0.75,
+        "Vac. N": 3.42,
+        "Inter. N": 2.84,
+        "X on U": 0.81,
+        "X on N": 7.97
+      }
+    }
+  ],
+  "defect_mae_struct": 2.124821560053728,
+  "defect_mae_comp": 4.378230243728758,
+  "runtime_sec": 5.0501954555511475,
+  "n_mcp_calls": 318
+}

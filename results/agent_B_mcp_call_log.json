@@ -1,0 +1,3705 @@
+[
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Cr",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": 0.4978347218002275
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Cr",
+    "structure_info": null,
+    "per_atom_eV": 0.1251051276922226
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Cr2N",
+    "structure_info": {
+      "spacegroup_number": 162,
+      "density_atomic": 9.51,
+      "CN_avg": 4.0,
+      "CN_min": 3,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.3026609203029631
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Cr2N",
+    "structure_info": null,
+    "per_atom_eV": -0.24691402912139893
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Cr3N2",
+    "structure_info": {
+      "spacegroup_number": 167,
+      "density_atomic": 6.8,
+      "lattice_a": 4.6708,
+      "lattice_b": 4.6708,
+      "lattice_c": 14.2764,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 120.0,
+      "volume": 269.73,
+      "density": 6.8,
+      "nsites": 30,
+      "CN_avg": 4.8,
+      "CN_min": 4,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.6122313177486305
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Cr3N2",
+    "structure_info": null,
+    "per_atom_eV": -0.33269011974334717
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Cr3N4",
+    "structure_info": {
+      "spacegroup_number": 176,
+      "density_atomic": 5.06,
+      "lattice_a": 7.6374,
+      "lattice_b": 7.6374,
+      "lattice_c": 2.7529,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 120.0,
+      "volume": 139.06,
+      "density": 5.06,
+      "nsites": 14,
+      "CN_avg": 5.14,
+      "CN_min": 4,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.5045278639190005
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Cr3N4",
+    "structure_info": null,
+    "per_atom_eV": 0.02366568148136139
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "CrN",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 9.2,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.6940346405589066
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "CrN",
+    "structure_info": null,
+    "per_atom_eV": -0.15392374992370605
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Mo",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.783255700017307,
+      "density": 10.02490869883402,
+      "lattice_a": 3.16761794,
+      "lattice_b": 3.16761794,
+      "lattice_c": 3.16761794,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": 0.5758274357888468
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Mo",
+    "structure_info": null,
+    "per_atom_eV": -0.016508951783180237
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Mo15N16",
+    "structure_info": {
+      "spacegroup_number": 9,
+      "density_atomic": 8.57,
+      "lattice_a": 11.2853,
+      "lattice_b": 11.4749,
+      "lattice_c": 9.96,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.03,
+      "lattice_gamma": 90.0,
+      "volume": 1289.81,
+      "density": 8.57,
+      "nsites": 124,
+      "CN_avg": 5.81,
+      "CN_min": 5,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.4132750070699588
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Mo15N16",
+    "structure_info": null,
+    "per_atom_eV": -0.10351982712745667
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Mo2N",
+    "structure_info": {
+      "spacegroup_number": 141,
+      "density_atomic": 12.0,
+      "CN_avg": 4.0,
+      "CN_min": 3,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.09470304080184086
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Mo2N",
+    "structure_info": null,
+    "per_atom_eV": -0.14542920887470245
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Mo2N3",
+    "structure_info": {
+      "spacegroup_number": 2,
+      "density_atomic": 4.45,
+      "lattice_a": 5.8164,
+      "lattice_b": 6.1253,
+      "lattice_c": 10.3544,
+      "lattice_alpha": 77.25,
+      "lattice_beta": 76.11,
+      "lattice_gamma": 86.12,
+      "volume": 349.25,
+      "density": 4.45,
+      "nsites": 20,
+      "CN_avg": 3.4,
+      "CN_min": 2,
+      "CN_max": 5
+    },
+    "per_atom_eV": -0.12424613084309598
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Mo2N3",
+    "structure_info": null,
+    "per_atom_eV": 0.10995949804782867
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "MoN",
+    "structure_info": {
+      "spacegroup_number": 186,
+      "density_atomic": 10.08,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.3461279610219629
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "MoN",
+    "structure_info": null,
+    "per_atom_eV": -0.04700709879398346
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Nb",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": 0.5259472130640429
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Nb",
+    "structure_info": null,
+    "per_atom_eV": -0.18558460474014282
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Nb2N",
+    "structure_info": {
+      "spacegroup_number": 162,
+      "density_atomic": 8.06,
+      "lattice_a": 5.3347,
+      "lattice_b": 5.3347,
+      "lattice_c": 5.0121,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 120.0,
+      "volume": 123.53,
+      "density": 8.06,
+      "nsites": 9,
+      "CN_avg": 4.0,
+      "CN_min": 3,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.8139257942228691
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Nb2N",
+    "structure_info": null,
+    "per_atom_eV": -0.8328438401222229
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Nb5N6",
+    "structure_info": {
+      "spacegroup_number": 193,
+      "density_atomic": 11.38,
+      "CN_avg": 5.45,
+      "CN_min": 5,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.0618701409422577
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Nb5N6",
+    "structure_info": null,
+    "per_atom_eV": -1.1412395238876343
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "NbN",
+    "structure_info": {
+      "spacegroup_number": 187,
+      "density_atomic": 11.09,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.0809725385746543
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "NbN",
+    "structure_info": null,
+    "per_atom_eV": -1.0983682870864868
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Ta",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": 0.5152297385596258
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Ta",
+    "structure_info": null,
+    "per_atom_eV": -0.06612130999565125
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Ta2N",
+    "structure_info": {
+      "spacegroup_number": 162,
+      "density_atomic": 13.33,
+      "CN_avg": 4.0,
+      "CN_min": 3,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.9772827075242888
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Ta2N",
+    "structure_info": null,
+    "per_atom_eV": -0.7427034974098206
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Ta3N5",
+    "structure_info": {
+      "spacegroup_number": 62,
+      "density_atomic": 10.11,
+      "CN_avg": 5.75,
+      "CN_min": 4,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.1632190412659036
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Ta3N5",
+    "structure_info": null,
+    "per_atom_eV": -1.0077850818634033
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "Ta5N6",
+    "structure_info": {
+      "spacegroup_number": 193,
+      "density_atomic": 11.07,
+      "CN_avg": 5.45,
+      "CN_min": 5,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.1763882937206622
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "Ta5N6",
+    "structure_info": null,
+    "per_atom_eV": -1.0473514795303345
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "TaN",
+    "structure_info": {
+      "spacegroup_number": 189,
+      "density_atomic": 11.41,
+      "CN_avg": 5.0,
+      "CN_min": 3,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.2642579143868131
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "TaN",
+    "structure_info": null,
+    "per_atom_eV": -0.9280139207839966
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "U",
+    "structure_info": null,
+    "per_atom_eV": 0.8955309754987287
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "U",
+    "structure_info": null,
+    "per_atom_eV": 0.06621335446834564
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "U2CrN3",
+    "structure_info": {
+      "spacegroup_number": 71,
+      "density_atomic": 12.94,
+      "CN_avg": 6.0,
+      "CN_min": 4,
+      "CN_max": 7
+    },
+    "per_atom_eV": -1.4789186234543898
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "U2CrN3",
+    "structure_info": null,
+    "per_atom_eV": -1.517982840538025
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "UN",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.7153609234151925
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "UN",
+    "structure_info": null,
+    "per_atom_eV": -1.6441881656646729
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "UNbN2",
+    "structure_info": {
+      "spacegroup_number": 62,
+      "density_atomic": 11.62,
+      "lattice_a": 5.7449,
+      "lattice_b": 3.2644,
+      "lattice_c": 10.9406,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "volume": 205.17,
+      "density": 11.62,
+      "nsites": 16,
+      "CN_avg": 6.0,
+      "CN_min": 5,
+      "CN_max": 7
+    },
+    "per_atom_eV": -1.4510306669670237
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "UNbN2",
+    "structure_info": null,
+    "per_atom_eV": -1.5414021015167236
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "UTaN2",
+    "structure_info": {
+      "spacegroup_number": 62,
+      "density_atomic": 14.65,
+      "lattice_a": 5.7193,
+      "lattice_b": 3.2493,
+      "lattice_c": 10.9068,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "volume": 202.69,
+      "density": 14.65,
+      "nsites": 16,
+      "CN_avg": 6.0,
+      "CN_min": 5,
+      "CN_max": 7
+    },
+    "per_atom_eV": -1.5875597296509034
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "UTaN2",
+    "structure_info": null,
+    "per_atom_eV": -1.4423645734786987
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "UVN2",
+    "structure_info": {
+      "spacegroup_number": 62,
+      "density_atomic": 11.53,
+      "CN_avg": 6.0,
+      "CN_min": 5,
+      "CN_max": 7
+    },
+    "per_atom_eV": -1.6145258265285098
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "UVN2",
+    "structure_info": null,
+    "per_atom_eV": -1.4945610761642456
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "V",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": 0.4254155588877012
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "V",
+    "structure_info": null,
+    "per_atom_eV": 0.016831323504447937
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "V2N",
+    "structure_info": {
+      "spacegroup_number": 162,
+      "density_atomic": 6.17,
+      "lattice_a": 4.8872,
+      "lattice_b": 4.8872,
+      "lattice_c": 4.5263,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 120.0,
+      "volume": 93.63,
+      "density": 6.17,
+      "nsites": 9,
+      "CN_avg": 4.0,
+      "CN_min": 3,
+      "CN_max": 6
+    },
+    "per_atom_eV": -0.9302449908642382
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "V2N",
+    "structure_info": null,
+    "per_atom_eV": -0.6626806259155273
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "V2N3",
+    "structure_info": {
+      "spacegroup_number": 164,
+      "density_atomic": 5.55,
+      "lattice_a": 2.818,
+      "lattice_b": 2.818,
+      "lattice_c": 6.2571,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 120.0,
+      "volume": 43.03,
+      "density": 5.55,
+      "nsites": 5,
+      "CN_avg": 5.2,
+      "CN_min": 4,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.1911170097603676
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "V2N3",
+    "structure_info": null,
+    "per_atom_eV": -0.4754709005355835
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "V8N",
+    "structure_info": {
+      "spacegroup_number": 136,
+      "density_atomic": 12.43,
+      "CN_avg": 4.89,
+      "CN_min": 1,
+      "CN_max": 8
+    },
+    "per_atom_eV": -0.27969484427647484
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "V8N",
+    "structure_info": null,
+    "per_atom_eV": 0.06049533188343048
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "VN",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 8.77,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.1361856085733915
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "VN",
+    "structure_info": null,
+    "per_atom_eV": -0.9760521054267883
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "W",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.864527039671284,
+      "density": 19.160711348402423,
+      "lattice_a": 3.17031556,
+      "lattice_b": 3.17031556,
+      "lattice_c": 3.17031556,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": 0.9977323393569056
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "W",
+    "structure_info": null,
+    "per_atom_eV": 0.49726444482803345
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "W2N3",
+    "structure_info": {
+      "spacegroup_number": 194,
+      "density_atomic": 11.69,
+      "CN_avg": 4.8,
+      "CN_min": 3,
+      "CN_max": 6
+    },
+    "per_atom_eV": 0.24630574028687355
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "W2N3",
+    "structure_info": null,
+    "per_atom_eV": -0.07830891758203506
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "WN",
+    "structure_info": {
+      "spacegroup_number": 187,
+      "density_atomic": 10.42,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": 0.12383295703504262
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "WN",
+    "structure_info": null,
+    "per_atom_eV": -0.10715250670909882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "WN2",
+    "structure_info": {
+      "spacegroup_number": 166,
+      "density_atomic": 9.98,
+      "CN_avg": 5.33,
+      "CN_min": 4,
+      "CN_max": 8
+    },
+    "per_atom_eV": 0.7870056255556367
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "WN2",
+    "structure_info": null,
+    "per_atom_eV": 0.15678350627422333
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "U31V1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6075169634441258
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "U31V1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5987365245819092
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "RF",
+    "composition": "U32V1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5806496469272389
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.474952",
+    "model": "NN",
+    "composition": "U32V1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2902330160140991
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31V1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6075169634441258
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31V1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5987365245819092
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32V1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5806496469272389
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32V1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2902330160140991
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31V1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6075169634441258
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31V1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5987365245819092
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32V1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5806496469272389
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32V1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2902330160140991
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31V1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6075169634441258
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31V1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5987365245819092
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32V1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5806496469272389
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32V1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2902330160140991
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31V1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6075169634441258
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31V1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5987365245819092
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32V1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.527560240402856,
+      "density": 6.377544728033651,
+      "lattice_a": 2.98239917,
+      "lattice_b": 2.98239917,
+      "lattice_c": 2.98239917,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5806496469272389
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32V1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2902330160140991
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Nb1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6112406304043763
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Nb1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5623942613601685
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Nb1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5842432498088834
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Nb1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2757906913757324
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Nb1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6112406304043763
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Nb1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5623942613601685
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Nb1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5842432498088834
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Nb1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2757906913757324
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Nb1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6112406304043763
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Nb1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5623942613601685
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Nb1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5842432498088834
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Nb1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2757906913757324
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Nb1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6112406304043763
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Nb1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5623942613601685
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Nb1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.51613325468368,
+      "density": 8.449671966411717,
+      "lattice_a": 3.31763238,
+      "lattice_b": 3.31763238,
+      "lattice_c": 3.31763238,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5842432498088834
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Nb1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2757906913757324
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Ta1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5918158960585884
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Ta1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5650466680526733
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Ta1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5609594794067907
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Ta1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2470078468322754
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Ta1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5918158960585884
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Ta1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5650466680526733
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Ta1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5609594794067907
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Ta1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2470078468322754
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Ta1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5918158960585884
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Ta1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5650466680526733
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Ta1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5609594794067907
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Ta1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2470078468322754
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Ta1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5918158960585884
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Ta1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5650466680526733
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Ta1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5609594794067907
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Ta1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2470078468322754
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Ta1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5918158960585884
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Ta1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5650466680526733
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Ta1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 36.25994535318532,
+      "density": 16.573164755299466,
+      "lattice_a": 3.30985561,
+      "lattice_b": 3.30985561,
+      "lattice_c": 3.30985561,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5609594794067907
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Ta1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2470078468322754
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Cr1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5994255362184853
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Cr1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5609134435653687
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Cr1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.576317949932345
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Cr1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2621592283248901
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Cr1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5994255362184853
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Cr1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5609134435653687
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Cr1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.576317949932345
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Cr1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2621592283248901
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Cr1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5994255362184853
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Cr1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5609134435653687
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Cr1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.576317949932345
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Cr1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2621592283248901
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31Cr1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5994255362184853
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U31Cr1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5609134435653687
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U32Cr1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.576317949932345
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "NN",
+    "composition": "U32Cr1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2621592283248901
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.477466",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31Cr1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5994255362184853
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31Cr1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5609134435653687
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32Cr1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 26.168957886187606,
+      "density": 6.598776753509442,
+      "lattice_a": 2.96889936,
+      "lattice_b": 2.96889936,
+      "lattice_c": 2.96889936,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.576317949932345
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32Cr1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2621592283248901
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31Mo1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.783255700017307,
+      "density": 10.02490869883402,
+      "lattice_a": 3.16761794,
+      "lattice_b": 3.16761794,
+      "lattice_c": 3.16761794,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6087254068030454
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31Mo1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.543864130973816
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32Mo1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.783255700017307,
+      "density": 10.02490869883402,
+      "lattice_a": 3.16761794,
+      "lattice_b": 3.16761794,
+      "lattice_c": 3.16761794,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5789682979334152
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32Mo1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2426645755767822
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31Mo1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.783255700017307,
+      "density": 10.02490869883402,
+      "lattice_a": 3.16761794,
+      "lattice_b": 3.16761794,
+      "lattice_c": 3.16761794,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6087254068030454
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31Mo1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.543864130973816
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32Mo1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.783255700017307,
+      "density": 10.02490869883402,
+      "lattice_a": 3.16761794,
+      "lattice_b": 3.16761794,
+      "lattice_c": 3.16761794,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5789682979334152
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32Mo1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2426645755767822
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31Mo1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.783255700017307,
+      "density": 10.02490869883402,
+      "lattice_a": 3.16761794,
+      "lattice_b": 3.16761794,
+      "lattice_c": 3.16761794,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.6087254068030454
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31Mo1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.543864130973816
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32Mo1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.783255700017307,
+      "density": 10.02490869883402,
+      "lattice_a": 3.16761794,
+      "lattice_b": 3.16761794,
+      "lattice_c": 3.16761794,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5789682979334152
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32Mo1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.2426645755767822
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31W1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.864527039671284,
+      "density": 19.160711348402423,
+      "lattice_a": 3.17031556,
+      "lattice_b": 3.17031556,
+      "lattice_c": 3.17031556,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5939792920148221
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31W1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5456615686416626
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32W1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.864527039671284,
+      "density": 19.160711348402423,
+      "lattice_a": 3.17031556,
+      "lattice_b": 3.17031556,
+      "lattice_c": 3.17031556,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5497960852447228
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32W1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.20591402053833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31W1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.864527039671284,
+      "density": 19.160711348402423,
+      "lattice_a": 3.17031556,
+      "lattice_b": 3.17031556,
+      "lattice_c": 3.17031556,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5939792920148221
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31W1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5456615686416626
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32W1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.864527039671284,
+      "density": 19.160711348402423,
+      "lattice_a": 3.17031556,
+      "lattice_b": 3.17031556,
+      "lattice_c": 3.17031556,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5497960852447228
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32W1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.20591402053833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31N32",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31N32",
+    "structure_info": null,
+    "per_atom_eV": -1.64572274684906
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N31",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.686690024207106
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N31",
+    "structure_info": null,
+    "per_atom_eV": -1.3607407808303833
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32N33",
+    "structure_info": {
+      "spacegroup_number": 225,
+      "density_atomic": 14.5,
+      "CN_avg": 6.0,
+      "CN_min": 6,
+      "CN_max": 6
+    },
+    "per_atom_eV": -1.6986626157799882
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32N33",
+    "structure_info": null,
+    "per_atom_eV": -1.645547866821289
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U31W1N32",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.864527039671284,
+      "density": 19.160711348402423,
+      "lattice_a": 3.17031556,
+      "lattice_b": 3.17031556,
+      "lattice_c": 3.17031556,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5939792920148221
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U31W1N32",
+    "structure_info": null,
+    "per_atom_eV": -1.5456615686416626
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "RF",
+    "composition": "U32W1N31",
+    "structure_info": {
+      "spacegroup_number": 229,
+      "nsites": 2,
+      "volume": 31.864527039671284,
+      "density": 19.160711348402423,
+      "lattice_a": 3.17031556,
+      "lattice_b": 3.17031556,
+      "lattice_c": 3.17031556,
+      "lattice_alpha": 90.0,
+      "lattice_beta": 90.0,
+      "lattice_gamma": 90.0,
+      "CN_avg": 8.0,
+      "CN_min": 8,
+      "CN_max": 8
+    },
+    "per_atom_eV": -1.5497960852447228
+  },
+  {
+    "timestamp": "2026-03-20T23:07:22.480065",
+    "model": "NN",
+    "composition": "U32W1N31",
+    "structure_info": null,
+    "per_atom_eV": -1.20591402053833
+  }
+]
