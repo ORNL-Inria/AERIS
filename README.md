@@ -9,13 +9,13 @@ AERIS features an interactive orchestration framework that empowers scientists t
 AERIS can be installed as a stand alone library, with the codes executed birectly through function calls or
 can be connected to reasoning models through MCP tools or Claude SKILLs.
 
-Details on the agents available in the AERIS library here: [AGENTS.md](https://github.com/ORNL-Inria/AERIS/blob/docs/AGENTS.md)
+Details on the agents available in the AERIS library here: [AGENTS.md](https://github.com/ORNL-Inria/AERIS/blob/main/AGENTS.md)
 
-Details on the organization of the codes in this repo and examples of how agents can be used can be found here: [CLAUDE.md](https://github.com/ORNL-Inria/AERIS/blob/docs/CLAUDE.md)
+Details on the organization of the codes in this repo and examples of how agents can be used can be found here: [CLAUDE.md](https://github.com/ORNL-Inria/AERIS/blob/main/CLAUDE.md)
 
 ## AERIS as a stand alone library
 
-<img width="700" alt="aeris diagram" src="./docs/aeris-diagram.png" align="left"  />
+<img width="500" alt="aeris diagram" src="./docs/aeris-diagram.png" align="left"  />
 
 There are 6 basic functions and an additional 3 complex functions offered in the AERIS library:
 1. **read_datasets**: received a regular expression witht the path to existing csv datasets
