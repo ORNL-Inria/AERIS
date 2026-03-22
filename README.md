@@ -9,15 +9,32 @@ AERIS features an interactive orchestration framework that empowers scientists t
 AERIS can be installed as a stand alone library, with the codes executed birectly through function calls or
 can be connected to reasoning models through MCP tools or Claude SKILLs.
 
+Details on the agents available in the AERIS library here: [AGENTS.md](https://github.com/ORNL-Inria/AERIS/blob/docs/AGENTS.md)
+
+Details on the organization of the codes in this repo and examples of how agents can be used can be found here: [CLAUDE.md](https://github.com/ORNL-Inria/AERIS/blob/docs/CLAUDE.md)
+
 ## AERIS as a stand alone library
 
-<img width="725" height="462" alt="aeris diagram" src="./docs/aeris.png" />
+<img width="700" alt="aeris diagram" src="./docs/aeris-diagram.png" align="left"  />
+
+There are 6 basic functions and an additional 3 complex functions offered in the AERIS library:
+1. **read_datasets**: received a regular expression witht the path to existing csv datasets
+2. **parse_formula**: receives a string with the composition (e.g. UO2) and outputs a dictionary with the attributes of the composition (e.g. {U:1, O:2})
+3. **parse_structure_string**: receives a string with a structure and returns a dictionary with the structure attributes
+4. **load_structure_model**: receives the path to a model and returns a AerisFullStructure architecture model loaded with the checkpoint provided 
+5. **build_features_in_ckpt_order**: received composition and structure attributes and creates the feature list in the order expected by the loaded model
+6. **predict_energy**: receives a feature list and a model and predicts the energy per atom
+
+The complex functions are using the basic functions to offer mcp servers the capabilities needed by the agents:
+1. **find_structure_in_datasets**: receives a regular expression with the path to existing csv datasets and a composition. The function reads the dataset and returns a list of structures for the given composition
+2. **find_structure_templates**: receives a regular expression with the path to existing csv datasets and a composition. The function returns all structures that are candidates for the given composition including the exact matches.
+3. **find_energy_forall_structures**: receives a model, a regular expression with the path to existing csv datasets and a composition. The function finds all the candidate structures for the composition in the provided datasets. For each structure it either returns the existing energy per atom in the dataset, or using the model predicts the energy for the candidate structure and given composition.
 
 ## AERIS through MCP tools
 
 ### MCP tools
 
-There are currently 4 mcp tools to interact with the reasoning model:
+There are currently 4 mcp tools to interact with the reasoning model through the functions described above.
 
 **1) Tool to find existing structures for a given composition by looking in available datasets**
 ```
