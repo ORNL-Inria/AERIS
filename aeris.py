@@ -33,7 +33,6 @@ __all__ = [
     "find_structure_in_datasets",
     "find_structure_templates",
     "find_energy_forall_structures",
-    "predict_energy_forall_structures"
 ]
 
 def read_datasets(dataset_files: str) -> List[Any]:
@@ -149,6 +148,11 @@ class AerisFullStructure(nn.Module):
         return self.layers(x)
 
 def load_structure_model(model_file: str, device: str = 'cpu'):
+    """Function to load the model.
+    Input: the path to the model checkpoint that contains a dictionary with
+    the scalar, input dimensions and feature names
+    Output: the loaded model, feature names and scalar
+    """
     if not os.path.exists(model_file):
         raise FileNotFoundError('No checkpoint found in candidates: ' + model_file)
 
@@ -451,6 +455,15 @@ def _chunk_bounds(n, size, rank):
 
 def find_energy_forall_structures(dataset_files: str, composition: str, model_path: str,
                                   only_matches: bool=False, comm=None, limit: Optional[int] = 100):
+    """Function to find and/or predict the energy for a list of sructures
+    Input: - dataframe with the dataset
+           - the composition string
+           - the path to the model
+           - MPI communicator
+           - Optionally the max number of entries returned
+    Output: dictionary with all the entries found
+    """
+
     rank = 0
     size = 1
 
