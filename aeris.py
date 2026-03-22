@@ -1,16 +1,15 @@
-import re
-import os
-import sys
-import json
-import argparse, json
 import glob
+import json
+import os
+import re
+import sys
+from typing import Any, Dict, List, Optional, Tuple
+
 import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
-from torch.utils.data import TensorDataset, DataLoader
-import math
-from typing import Any, Dict, List, Optional, Tuple
+from torch.utils.data import DataLoader, TensorDataset
 try:
     from mpi4py import MPI
     AERIS_HAS_MPI = True
@@ -23,13 +22,25 @@ from matminer.featurizers.base import MultipleFeaturizer
 from matminer.featurizers import composition as cf
 
 
-# optional numeric columns (if present in CSV) that we will include as features
-OPTIONAL_NUMERIC_COLS = [
-    'density_atomic', 'CN_max', 'CN_min', 'CN_avg',
-    # add more if you know they exist & are useful
+__all__ = [
+    "AerisFullStructure",
+    "read_datasets",
+    "parse_formula",
+    "parse_structure_string",
+    "load_structure_model",
+    "build_features_in_ckpt_order",
+    "predict_energy",
+    "find_structure_in_datasets",
+    "find_structure_templates",
+    "find_energy_forall_structures",
+    "predict_energy_forall_structures"
 ]
 
 def read_datasets(dataset_files: str) -> List[Any]:
+    """Function to read a list of csv files.
+    Input: partial name (string) of the dataset
+    Output: pandas array with all the entries
+    """
     dfs = []
     dataset_files = glob.glob(dataset_files)
     for file_path in dataset_files:
@@ -37,6 +48,10 @@ def read_datasets(dataset_files: str) -> List[Any]:
     return pd.concat(dfs, ignore_index=True)
 
 def parse_formula(s: str) -> Dict[str, float]:
+    """Function to retrurn the formula of a given composition.
+    Input: the composition string (e.g. UO2)
+    Output: a dictionary {element: number of elements} (e.g. {U: 1, O: 2})
+    """
     parts = re.findall(r"([A-Z][a-z]?)([0-9]*\.?[0-9]*)", str(s).strip())
     if not parts:
         raise ValueError(f"Could not parse formula: {s}")
@@ -64,6 +79,10 @@ def _apply_df_parse_formula_str(val):
         return None
 
 def parse_structure_string(struct_str: str) -> Dict[str, float]:
+    """Function to read a structure string.
+    Input: structure string
+    Output: dictionary with structure features
+    """
     # minimal lattice extractor (compatible with training utils)
     result = {
         'lattice_a': np.nan,
@@ -108,8 +127,9 @@ def parse_structure_string(struct_str: str) -> Dict[str, float]:
     return result
 
 
-# Aeris model architecture used for prediction
 class AerisFullStructure(nn.Module):
+    """The Aeris model architecture used for prediction
+    """
     def __init__(self, input_dim, dropout=0.3):
         super().__init__()
         first_layer = min(1024, max(512, input_dim * 2))
@@ -167,7 +187,7 @@ def load_structure_model(model_file: str, device: str = 'cpu'):
 # -----------------------------
 # Build X,y in *checkpoint feature order*
 # -----------------------------
-def make_magpie_featurizer() -> MultipleFeaturizer:
+def _make_magpie_featurizer() -> MultipleFeaturizer:
     return MultipleFeaturizer([
         cf.Stoichiometry(),
         cf.ElementProperty.from_preset("magpie"),
@@ -175,8 +195,8 @@ def make_magpie_featurizer() -> MultipleFeaturizer:
         cf.IonProperty(fast=True),
     ])
 
-def compute_magpie_df(compositions: pd.Series) -> pd.DataFrame:
-    featurizer = make_magpie_featurizer()
+def _compute_magpie_df(compositions: pd.Series) -> pd.DataFrame:
+    featurizer = _make_magpie_featurizer()
 
     comp_objs = []
     for s in compositions.astype(str).tolist():
@@ -203,11 +223,23 @@ def compute_magpie_df(compositions: pd.Series) -> pd.DataFrame:
     feat_df = feat_df.drop(columns=[c for c in feat_df.columns if c == "comp_obj"], errors="ignore")
     return feat_df
 
-def build_X_y_in_ckpt_order(
+def build_features_in_ckpt_order(
     df: pd.DataFrame,
     feature_names: List[str],
     target_col: Optional[str],
 ) -> Tuple[np.ndarray, Optional[np.ndarray]]:
+    """Function to build the feature list in the order provided by the model.
+    Input: - the dataframe with the raw data
+           - the list of features needed by the model
+           - the column that is predicted
+    Output: - List of input features that can be used by the model to predict
+            - Optionally, a list of output ground truth values for the predicted column
+    """
+    # optional numeric columns (if present in CSV) that we will include as features
+    OPTIONAL_NUMERIC_COLS = [
+        'density_atomic', 'CN_max', 'CN_min', 'CN_avg',
+    ]
+
     required = ["composition", "structure"]
     for c in required:
         if c not in df.columns:
@@ -216,7 +248,7 @@ def build_X_y_in_ckpt_order(
     if target_col is not None and target_col not in df.columns:
         raise KeyError(f"Missing target column '{target_col}'")
 
-    magpie_df = compute_magpie_df(df["composition"])
+    magpie_df = _compute_magpie_df(df["composition"])
     n = len(df)
     X = np.zeros((n, len(feature_names)), dtype=np.float32)
     y: Optional[np.ndarray] = None
@@ -294,24 +326,29 @@ def build_X_y_in_ckpt_order(
         y = y[mask]
     return X, y
 
-def predict_energy(model: str, features: Dict = None, target_col: str = None) -> Dict[str, Any]:
+def predict_energy(model_path: str, features: Dict[str, Any], target_col: Optional[str] = None) -> Dict[str, Any]:
+    """Function to predict enthalpy using the model
+    Input: - The path to the model
+           - Dictionary with the input data for prediction
+           - Optionally the target column in case accuracy needs to be computed
+    Output: dictionary with the resulted energy
+    """
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    if features is None:
+        raise ValueError("features must be provided")
     df = pd.DataFrame([features])
 
-    model, feature_names, scaler = load_structure_model(model, device=device)
-    X_raw, y = build_X_y_in_ckpt_order(df, feature_names=feature_names, target_col=target_col)
-    #print("Prepared X:", X_raw.shape, "y:", None if y is None else y.shape, "num_features:", len(feature_names))
-    #if X_raw.shape[1] != input_dim:
-    #    raise ValueError(f"Checkpoint input_dim={input_dim} but built X has {X_raw.shape[1]} features.")
+    model_obj, feature_names, scaler = load_structure_model(model_path, device=device)
+    X_raw, y = build_features_in_ckpt_order(df, feature_names=feature_names, target_col=target_col)
 
     # scale (must match training)
     X_scaled = scaler.transform(X_raw).astype(np.float32)
     ds = TensorDataset(torch.tensor(X_scaled, dtype=torch.float32))
     loader = DataLoader(ds, batch_size=1, shuffle=False, drop_last=False)
-    model.eval()
-    for (xb,) in loader:
+    model_obj.eval()
+    for (xb,) in loader: #TODO need to keep all entries in the batch not just the last
         xb = xb.to(device)
-        per_atom = model(xb).detach().cpu().numpy()  # (B,1)
+        per_atom = model_obj(xb).detach().cpu().numpy()  # (B,1)
 
     parsed = parse_formula(features['composition'])
     n_atoms = float(sum(parsed.values()))
@@ -325,6 +362,12 @@ def predict_energy(model: str, features: Dict = None, target_col: str = None) ->
     }
 
 def find_structure_in_datasets(df: pd.DataFrame, composition: str, limit: Optional[int] = None) -> list[dict[str, Any]]:
+    """Function to find the structures in the database that correspond to a given composition
+    Input: - dataframe with the dataset
+           - the composition string
+           - Optionally the max number of entries returned
+    Output: dictionary with all the entries found
+    """
     all_entries = []
     query_comp = _apply_df_parse_formula_str(composition)
 
@@ -359,6 +402,12 @@ def find_structure_in_datasets(df: pd.DataFrame, composition: str, limit: Option
     return all_entries
 
 def find_structure_templates(df: pd.DataFrame, composition: str, limit: Optional[int] = None) -> list[dict[str, Any]]:
+    """Function to find the structure candidates in the database that correspond to a given composition
+    Input: - dataframe with the dataset
+           - the composition string
+           - Optionally the max number of entries returned
+    Output: dictionary with all the candidate entries
+    """
     all_entries = []
     query_comp = parse_formula(composition)
     nelem_query = sum(set(query_comp.values()))
