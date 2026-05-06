@@ -13,6 +13,16 @@ Details on the agents available in the AERIS library here: [AGENTS.md](https://g
 
 Details on the organization of the codes in this repo and examples of how agents can be used can be found here: [CLAUDE.md](https://github.com/ORNL-Inria/AERIS/blob/main/CLAUDE.md)
 
+## Usage
+
+To start testing the tools in this repo, start by downloading the `Dataset_feature+CN.csv` datasets from: [https://drive.google.com/drive/folders/1Ka6Zbzulu7nU48BBzvhZr1QBGQJykRFy](https://drive.google.com/drive/folders/1Ka6Zbzulu7nU48BBzvhZr1QBGQJykRFy)
+
+Train the models by using the code in the `training` folder. This will produce two output checkpoints
+  1) model/aeris_comp_only.pt     -- composition + Magpie (230 features)
+  2) model/aeris_full_struct.pt   -- composition + Magpie + structural (236 features, same as RF)
+
+Once the dataset and model checkpoints are created, AERIS can be used as an interactive orchestration framework.
+
 ## AERIS as a stand alone library
 
 <img width="500" alt="aeris diagram" src="./docs/aeris-diagram.png" align="left"  />
